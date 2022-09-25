@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Cadastro Dev</title>
+</head>
+<body>
+	<h1>Cadastro Dev</h1>
+
+	<p>Complete suas informações</p>
+	<label>Nome</label>
+		<br>
+	<input type="text" name="Nome">
+		<br>
+
+	<label>Sobre Nome</label>
+		<br>
+	<input type="text" name="SobreNome">
+		<br>
+
+	<label>Email</label>
+		<br>
+	<input type="email" name="Email">
+
+	<!-- <p>De qual lado da aplicação você desenvolve?</p> -->
+	
+		<p>Senioridade</p>
+		<input list="Senioridade">
+		<datalist id="Senioridade">
+			<option value="Junior"/>
+			<option value="Senior"/>
+			<option value="Pleno"/>
+		</datalist>
+
+	<p>Selecione as tecnologias que utiliza:</p>
+	<input type="checkbox" id="HTML5" name="HTML5">
+	<label for="HTML5">HTML5</label>
+	<input type="checkbox" id="CSS3" name="HTML5">
+	<label for="HTML5">CSS3</label>
+	<input type="checkbox" id="Javascript" name="HTML5">
+	<label for="HTML5">Javascript</label>
+	<input type="checkbox" id="" name="PHP">
+	<label for="HTML5">PHP</label>
+
+	<p>Conte um pouco sobre a sua experiência:</p>
+	<textarea rows="5" cols="50"></textarea>
+
+	<br>
+
+	<button type="submit">Concluido</button>
+</body>
+</html>
