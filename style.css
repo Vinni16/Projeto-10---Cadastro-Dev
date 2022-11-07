@@ -1,4 +1,11 @@
 body {
 	margin: 10px;
 	text-align: center;
+	background-color: #00415f;
+	
+	color: white;
+}
+#conteiner {
+	background-color: #006f95;
+
 }
